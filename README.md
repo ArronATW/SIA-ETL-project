@@ -132,7 +132,7 @@ Each table is normalized and uses **surrogate primary keys** (e.g., `sia_user_id
 
 - **One-to-Many** from `traveller_type` to `sia_users`: One traveller type can be linked to multiple user reviews.
 - **One-to-Many** from `seat_type` to `sia_users`: One seat type can be associated with many users.
-- **One-to-Many** from `sia_users` to `user_ratings`: Each user review has exactly one set of detailed ratings.
+- **One-to-One** from `sia_users` to `user_ratings`: Each user review has exactly one set of detailed ratings.
 
 This relational structure supports efficient joins, flexible queries, and easy extension in the future (e.g., adding new lookup tables like cabin crew type or airport used).
 
