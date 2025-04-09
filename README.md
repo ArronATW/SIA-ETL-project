@@ -144,7 +144,7 @@ Surrogate keys are used across all main tables:
 
 
 ### Entity-Relationship Diagram (ERD)
-![SIA ERD pic](https://github.com/ArronATW/SIA-ETL-project/blob/main/SIA%20ER%20diagram.png)
+![SIA ERD pic](https://github.com/ArronATW/SIA-ETL-project/blob/main/ERD%20Diagram%20SIA.png)
 
 ## Exploratory Data Analysis
 
